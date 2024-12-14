@@ -7,6 +7,8 @@
 </head>
 <body>
     <form style=" border: black; border-style:solid; border-width:2px; background-color:rgb(224, 224, 159); padding: 30px;">
+        <legend>Personal details</legend>
+
         <label for="firstname">First Name</label>
         <input type="text" id="firstname" ><br> 
         <br>
@@ -14,9 +16,10 @@
         <input type="text" id="Lastname" ><br> 
         <br>
         <label for="Emailaddress">Email address</label>
+
         <input type="text" id="Emailaddress" ><br>
         <br>
-        Gender
+        <p>Gender</p>
         <input type="radio" id="male" name="gender" value="Male">
         <label for="male">Male</label>
         <label for=""></label>
@@ -24,10 +27,15 @@
         <input type="radio" id="female" name="gender" value="Female">
         <label for="female">Female</label>
         <label for=""></label>
+
+
+        
     </form>
     <br>
     <form style=" border: black; border-style:solid; border-width:2px; background-color:rgb(224, 224, 159); padding: 30px;">
         <br>
+        <legend>City</legend>
+
         <label for="city">City:</label>
         <select id="city" name="city">
           <option value="amman">Amman</option>
@@ -35,7 +43,7 @@
           <option value="zarqa">Zarqa</option>
           <option value="aqaba">Aqaba</option>
         </select>
-    </form name="City">
+    </form>
     <br>
     <form style="padding-left: 450px;">
         <input type="submit" value="Subscribe">
