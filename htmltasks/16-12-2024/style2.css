@@ -1,0 +1,96 @@
+
+.container {
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    /* row-gap: 5px; */
+    border: 1px dashed black;
+    width:405px;
+    height: 100px;
+    position: static;
+    column-gap: 5px;
+
+}
+
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}
+
+
+
+.container2 {
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    /* row-gap: 5px; */
+    border: 1px dashed black;
+    width: 406px;
+    height: 100px;
+    position: relative;
+    column-gap: 5px;
+}
+
+#boxtwo{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(10, 170, 74);
+    
+   
+}
+
+
+#secrow{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(10, 170, 74);
+    position: absolute; 
+    top: 20px;
+    left: 75px;
+}
+
+#sone{
+    left:0;
+}
+#sthree{
+    left: 250px;
+}
+#sfour{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    left: 300px;
+}
+
+#thrdrow{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(10, 170, 74);
+    position: relative; 
+  
+} 
+
+
+
+/* 
+
+.static{
+, .boxone, .boxthree, .boxfour{ 
+    border: 1px dashed black;
+    width: 150px;
+    height: 150px;
+    position: relative;
+   display: flex; 
+    background-color: red;
+}
+
+.boxtwo{
+    border: 1px dashed black;
+    width: 150px;
+    height: 150px;
+    position: static;
+    background-color: green;
+}
+*/

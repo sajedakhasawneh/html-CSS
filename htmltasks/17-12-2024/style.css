@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.intro {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 400px;
+  background-image: url(/img/background.jpg);
+  opacity: 80%;
+}
+
+
+
+
+.one{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+}
+
+.second{
+    padding-top: 25px;
+    text-align: center;
+
+}
+
+/* CONTAT SECTION*/
+
+.contant{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img{
+    text-align: center;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 21.25em;
+    height: 27em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1 , 25%);
+    padding: 25px;
+    margin: 25px;
+    transition: 0.8 ease;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+#card1{
+    transition: width 2s, height 1s;
+}
+#card1:hover{
+    background-color: rgba(229, 191, 191, 0.445);
+    width:23em;
+    height: 30em;
+}
+
+
+#card2{
+    transition: 2 linear;
+}
+#card2:hover{
+    font-family: fantasy;
+    text-shadow: 15px;
+    width:30em;
+    
+}
+
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    margin: 10px;
+
+}
+
+
+/* CONTAT SECTION end*/
+
+
+
+.section4 h2, p{
+    text-align: center;
+    padding: 5px 0px 30px 0px;
+}
+
+
+/*float*/
+
+.footer{
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 240px;
+    position: static;
+}
+
+
+.sub1{
+    background-color: rgb(76, 167, 223);
+    float: left;
+    width: 50%;
+    padding-top: 40px;
+    height: 200px;
+}
+
+.sub2{
+    background-color: rgb(58, 55, 55);
+    float: right;
+    width: 50%;
+    padding-top: 40px;
+    height: 200px;
+}
+
+/* 
+.toclear{
+    float: clear;
+} */
+
+
+/*flex*/
+
+/* .footer{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+}
+.parent{
+    padding-top: 10px;
+    color: #fff;
+    width: 50em;
+    height: 100%;
+    
+}
+.sub1{
+    background-color: rgb(76, 167, 223);
+    
+}
+
+.sub2{
+    background-color: rgb(58, 55, 55);
+    
+}
+
+*/
+.lastsec{
+    padding-top: 25px;
+    text-align: end;
+    background-color: black;
+    color: white;
+} 

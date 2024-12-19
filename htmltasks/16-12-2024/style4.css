@@ -1,0 +1,19 @@
+.container{
+    border: 10px solid orange;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    
+
+}
+
+.container > div {
+    background-color: #da6262;
+    color: white;
+    width: calc(100% / 4);
+    text-align: center;
+    line-height: 75px;
+    font-size: 75px;
+    /* padding: 10px; */
+  }
+

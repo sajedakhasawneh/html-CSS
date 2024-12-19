@@ -1,0 +1,54 @@
+*{
+    background-color: rgb(241, 214, 180);
+}
+#p1{
+    color: orange;
+}
+
+/* #p2{
+    background-image: url(back.jpg);
+} */
+
+.container{
+    background-color: rgb(241, 214, 180);
+}
+
+#head1{
+    color: orange;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+
+}
+
+#head2{
+    text-align: right;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+#pa1{
+    font-size:medium;
+
+}
+
+#pa2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.blue{
+    color: blue;
+}
+
+.green{
+    color: green;
+
+}
+
+ td{
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 3px;
+}
+;
