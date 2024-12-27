@@ -1,11 +1,14 @@
 *{
     padding: 0;
     margin: 0;
+
 }
 
 body {
     background-color: #EFF2F1 !important;
 }
+
+
 
 /*Header styling start */ 
 header{
@@ -25,7 +28,8 @@ header a{
 }
 
 header nav a{
-    margin-right: 70.74px;
+    /* margin-right: 70.74px; */
+    padding-left: 70.74px;
 }
 
 header a:nth-child(1){
@@ -58,8 +62,9 @@ button{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
+    column-gap: 15px;
     padding-top: 20px;
-    padding-left: 5px;
+    padding-left: 35px;
 }
 
 .navflex{
@@ -81,9 +86,10 @@ nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    column-gap: 1px;
     padding-top: 20px;
     padding-bottom: 220px;
-    padding-left: 620.23px;
+    padding-left: 590.23px;
 }
 
 h1{
@@ -226,8 +232,10 @@ h1{
 
 /* Starting section three*/
 .three{
-    margin-top: 200px;
-    margin-left: 92.4px;
+    /* margin-top: 200px;
+    margin-left: 92.4px; */
+    padding-top: 200px;
+    padding-left: 92.4px;
 }
 
 .three h2{
@@ -377,7 +385,7 @@ h2{
 
 /* Starting section 5*/
 .five{
-    margin-top: 350px;
+    margin-top: 650px;
 }
 .five h5{
     font-family: Inter;
@@ -433,11 +441,11 @@ h2{
 }
 
 
-.fiveflex img{
+/* .fiveflex img{
     border: 1px solid transparent;
     background-color: #35736E4D;
     border-radius: 9.33px;
-}
+} */
 
 /* .backgimg{
     border: 7px solid #35736E4D;
@@ -449,7 +457,7 @@ h2{
 
 /* .imgsec5{
     position: absolute;
-    top:-100px;
+    top:-30px;
 } */
 /*section five end*/
 
@@ -611,7 +619,7 @@ span{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 40px;
+    column-gap: 30px;
 }
 
 
@@ -637,7 +645,7 @@ span{
 .footergrid{
     display: grid;
     grid-template-columns: repeat(4, 115.76px);
-    gap: 1px 20px;
+    gap: 1px 50px;
     padding-left: 100px;
     padding-top: 150px;
 
@@ -679,6 +687,7 @@ span{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    column-gap: 13px;
     padding-right: 30px;
 }
 
@@ -689,6 +698,7 @@ span{
     background-color: #D9D9D9;
     border-radius: 50%;
     text-align: center;
+ 
 }
 
 .footerimg{
@@ -734,13 +744,55 @@ span{
 .backgroundimg{
     width: 276.27px;
     height: 269.6px;
-    border: 1px solid transparent;
+    border: 3px solid transparent;
     border-radius: 9.33px;
     position: relative;
 }
 
+#backgroundimg1{
+    box-shadow: 3px 3px 1px rgba(44, 44, 44, 0.3);
+}
+
 .img1{
     position: absolute;
-    top: -100px;
-    left: 50px
+    top: -80px;
+    left: 50px;
+}
+
+.img2{
+    position: absolute;
+    top: -55px;
+    left: 33px;
+} 
+
+
+.img3{
+    position: absolute;
+    top: -45px;
+    left: 65px;
+}
+
+.tocenter{
+    position: relative;
+}
+.pcard{
+    position: absolute;
+    top: -86px;
+    left: 86px;
+}
+
+.backimg5{
+    /* border: 3px solid transparent; */
+    position: relative;
+    border-radius: 9.33px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #35736E4D;
+    width: 91.47px;
+    height: 86.06px;
+}
+
+.imgsec5{
+    position: absolute;
+    top: -22px;
+    left: 10px;
 }
